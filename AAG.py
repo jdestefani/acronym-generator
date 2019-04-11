@@ -14,7 +14,7 @@ with open("wordsEn.txt") as word_file:
 
 print("[INFO] - Generating acronyms")        
 for element in itertools.product(*uniqueLetters):
-    acronymn = "".join(element).lower()
-    if(acronymn in dictionary):
-        print("Found acronymn: " + acronymn)
+    acronym = "".join(element).lower()
+    if(acronym in dictionary):
+        print("Found acronym: " + acronym)
     
